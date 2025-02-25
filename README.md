@@ -18,7 +18,6 @@ This is a React application that fetches and displays posts from the JSONPlaceho
 - Supports **pagination** for easy navigation.
 - Includes **a modal** for viewing post details.
 - Uses **Redux Toolkit** for state management.
-- Optimized filtering with **useMemo**.
 - Styled with **CSS animations** via AOS.
 
 ## Technologies Used
@@ -31,8 +30,8 @@ This is a React application that fetches and displays posts from the JSONPlaceho
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-redux-posts-viewer.git
-   cd react-redux-posts-viewer
+   git clone https://github.com/Sharonnkem/Tasks
+   cd Tasks
    ```
 2. Install dependencies:
    ```bash
@@ -40,23 +39,23 @@ This is a React application that fetches and displays posts from the JSONPlaceho
    ```
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Project Structure
 ```
 .
 ├── src
-│   ├── components
+│   ├── page
 │   │   ├── Navbar.js
 │   │   ├── MainPage.js
-│   ├── redux
-│   │   ├── categorySlice.js
-│   ├── App.js
-│   ├── index.js
-│   ├── styles
 │   │   ├── mainPage.css
 │   │   ├── navbar.css
+│   ├── redux
+│   │   ├── categorySlice.js
+│   │   ├── store.js
+│   ├── App.js
+│   ├── index.js
 ├── package.json
 ├── README.md
 ```
@@ -67,8 +66,8 @@ This is a React application that fetches and displays posts from the JSONPlaceho
 - **Navigate pages** using the pagination buttons.
 
 ## Future Enhancements
-- Implement **lazy loading** for fetching posts incrementally.
-- Add **infinite scrolling** for better UX.
+- Implement **Memoization** to optimize search filtering.
+- implemented **Debouncing** in Navbar.js to delay setting the search query.
 - Improve accessibility and responsiveness.
 
 ## License
