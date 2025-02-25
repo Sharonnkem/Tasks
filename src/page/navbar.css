@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #E0E0DF;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box; 
+  transition: 0.5s;
+  z-index: 10000;
+}
+
+.search-input {
+  display: flex;
+  padding: 12px 20px;
+  width: 100%;
+  max-width: 150px;
+  border-radius: 5px;
+  border: 1px solid #388087;
+  color: #2F4157;
+
+}
+
+.search-input::placeholder {
+  color: #2F4157;
+}
+
+.search-input.active {
+  border: 1px solid #388087;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+h2 {
+  color: #388087;
+}
+

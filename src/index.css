@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2F4157;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 2000px;
+  background-color: #ffffff;
+  padding-bottom: 5em;
+  padding-top: 8em;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+h1, h2, h3,h5 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    padding-top: 6em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  
+}
